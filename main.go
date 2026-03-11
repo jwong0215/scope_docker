@@ -22,7 +22,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	resp := Response{
-		Message:   "Hello from Go 👋",
+		Message:   "Hello from Go program VERSION 1️⃣",
 		RequestID: uuid.New().String(),
 	}
 
